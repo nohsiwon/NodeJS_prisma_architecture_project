@@ -1,4 +1,3 @@
-require('dotenv').config();
 const express = require('express');
 const ProductsController = require('../controllers/products.controller');
 const { tokenMiddleware } = require('../middlewares/auth');
